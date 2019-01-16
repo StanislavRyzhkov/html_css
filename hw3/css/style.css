@@ -1,0 +1,66 @@
+
+@font-face {
+    font-family: MontSerrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+body {
+    background: #f8f8f8;
+    font-family: MontSerrat, sans-serif;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #1b5e20;
+}
+
+.nav li {
+    list-style: none;
+}
+
+.item-header {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+}
+
+.short-desc {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.long-desc {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.specs {
+    list-style-image: url(../icons/check-mark2.png);
+    color: #1b5e20;
+    font-weight: bold;
+}
+
+.main-form input {
+    height: 24px;
+    width: 250px;
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+.main-form textarea {
+    height: 80px;
+    width: 400px;
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+a img {
+    display: block;
+    border: solid 2px #1b5e20;
+}
