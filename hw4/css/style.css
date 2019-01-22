@@ -1,0 +1,92 @@
+
+@font-face {
+    font-family: MontSerrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+body {
+    background: #f8f8f8;
+    font-family: MontSerrat, sans-serif;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #ad1457;
+}
+
+.nav li {
+    list-style: none;
+}
+
+.nav li:hover a {
+    color: #880e4f;
+    font-weight: bold;
+}
+
+.item-header {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+}
+
+.short-desc {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.long-desc {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.specs {
+    list-style-image: url(../icons/check-mark2.png);
+    color: #1b5e20;
+    font-weight: bold;
+}
+
+.table-specs {
+    border-collapse: collapse;
+}
+
+.table-specs td {
+    border: 1px solid black;
+    padding: 7px;
+}
+
+.main-form input {
+    height: 24px;
+    width: 250px;
+    font-size: 20px;
+    color: cornflowerblue;
+    text-transform: capitalize;
+}
+
+#emailField:focus {
+    background: #ad1457;
+    color: whitesmoke;
+}
+
+.main-form textarea {
+    height: 80px;
+    width: 400px;
+    font-size: 20px;
+    color: cornflowerblue;
+    text-transform: capitalize;
+}
+
+a img {
+    display: block;
+    border: solid 2px crimson;
+}
+
+a img:hover {
+    border: solid 2px #f8f8f8;
+}
+

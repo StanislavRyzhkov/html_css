@@ -1,2 +1,12 @@
 
 
+*.xml
+*.iml
+.DS_Store
+hw3/.DS_Store
+hw3/img/.DS_Store
+hw3/items/.DS_Store
+hw4/.DS_Store
+hw4/logo/.DS_Store
+hw4/items/.DS_Store
+hw4/img/.DS_Store
