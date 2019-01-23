@@ -1,0 +1,175 @@
+
+@font-face {
+    font-family: MontSerrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+body {
+    background: #f8f8f8;
+    font-family: MontSerrat, sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+}
+
+.header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    display: block;
+    margin-left: 20px;
+}
+
+.nav {
+    display: flex;
+    margin-right: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #ad1457;
+}
+
+.nav li {
+    list-style: none;
+    padding: 10px;
+}
+
+.nav li:hover a {
+    color: #880e4f;
+    font-weight: bold;
+}
+
+.item-header {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+}
+
+.short-desc {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.buy-button {
+    color: white;
+    background: #81c784;
+    width: 90px;
+    height: 30px;
+}
+
+.buy-button:hover {
+    background: #43a047;
+}
+
+.buy-button:active {
+    background: #e65100;
+}
+
+.long-desc {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.specs {
+    list-style-image: url(../icons/check-mark2.png);
+    color: #1b5e20;
+    font-weight: bold;
+}
+
+.table-specs {
+    border-collapse: collapse;
+}
+
+.table-specs td {
+    border: 1px solid black;
+    padding: 7px;
+}
+
+.main-form input {
+    height: 24px;
+    width: 250px;
+    font-size: 20px;
+    color: cornflowerblue;
+    text-transform: capitalize;
+}
+
+#emailField:focus {
+    background: #ad1457;
+    color: whitesmoke;
+}
+
+.main-form textarea {
+    height: 80px;
+    width: 400px;
+    font-size: 20px;
+    color: cornflowerblue;
+    text-transform: capitalize;
+}
+
+.image {
+    float: left;
+    margin-right: 10px;
+}
+
+a img {
+    display: block;
+    border: solid 2px crimson;
+}
+
+a img:hover {
+    border: solid 2px #f8f8f8;
+}
+
+.clear {
+    clear: both;
+}
+
+.products:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.product-block {
+    border: 1px solid darkgray;
+    box-sizing: border-box;
+    width: 288px;
+    margin-right: 48px;
+    margin-top: 15px;
+    float: left;
+}
+
+.product-block:nth-child(3n) {
+    margin-right: 0;
+}
+
+.product-block:nth-child(-n + 3) {
+    margin-top: 0;
+}
+
+footer {
+    height: 100px;
+    background: #e57373;
+}
+
+footer p {
+    text-align: right;
+    padding: 10px 15px;
+}
+
+
+
